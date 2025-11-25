@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile World Station</title>
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #fbfbfb;
+max-width: 850px;/* Use max-width for fluid behavior*/
+margin: 0 auto; /* A shorthand for centered margins */
+padding: 20px; /* Add padding to prevent content from touching the screen edges */
+}
+h1{
+color:#56997C;
+}
+p{
+color:#161716;
+}
+a:link {color: #272BAB}
+a:visited {color: #2E5F87}
+a:hover {color: #56997C}
+</style>
+</head>
+<body>
+<img src="images/banner.jpg" alt="Mobile World Station Banner">
+<nav>
+<p>
+<a href="index.htm">Homepage</a> :
+<a href="accessories.htm">Accessories</a> :
+<a href="apple.htm">Apple</a> :
+<a href="samsung.htm">Samsung</a> :
+<a href="gpixel.htm">Google Pixel</a> :
+<a href="oneplus.htm">Oneplus</a> :
+<a href="services.htm">Services</a> :
+<a href="contact.htm">Contact</a> :
+</p>
+</nav>
+<h2 id="index"><script>
+
+//Time of day message script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Credit must stay intact for use
+
+var Digital=new Date()
+var hours=Digital.getHours()
+
+//Configure message below to your own.
+if (hours>=5&&hours<=11) //MESSAGE FOR MORNING
+document.write('<b>Good morning, Welcome to this website.</b>')
+else if (hours==12) //MESSAGE FOR NOON
+document.write('<b>It is high noon. Thanks for dropping by!</b>')
+else if (hours>=13&&hours<=17) //MESSAGE FOR AFTERNOON
+document.write('<b>Afternoon, hope you enjoy the website.</b>')
+else if (hours>=21&&hours<=11) //MESSAGE FOR NIGHT (9pm-11pm)
+document.write('<b>Good to see you tonight, thanks for choosing this website before sleep!</b>')
+
+</script></h2>
+<p>
+This website, will show you the information you need to choose your next mobile phone, we also provide different services depending on what you need, we also sell different accessories depending on the phone of your choice, we have different accessories for whatever phone you want.</p>
+
+<p>The phones that you can buy consist of the brands, Apple, Samsung, Google Pixel and Oneplus. You can get the new iPhone 17 line up featuring the iPhone 17, iPhone 17 Pro and Pro max, and lastly the iPhone 17 air. With Samsung you are able to get the S25, S25 Ultra, ZFold 7, ZFlip 7 and the A56 if you're lookig for a budget phone. Google is offering the the Pixel 10, 10 Pro, 10 Fold and the 9a which is their budget phone.</p>
+
+<div class="row">
+ <div class="column">
+  <img src="images/iPhone.jpg" alt="iPhone 17 series" style="float: right;width:350px;height:150px">
+ </div>
+<div class="row">
+ <div class="column">
+  <img src="images/Samsung.jpg" alt="Samsung S and Z series" style="width:350px;height:150px">
+ </div>
+<div class="row">
+ <div class="column">
+  <img src="images/GPixel.jpg" alt="Google Pixel 10 Series" style="float: right;width:350px;height:150px">
+ </div>
+<div class="row">
+ <div class="column">
+  <img src="images/Oneplus.jpg" alt="Oneplus 13 Series" style="width:350px;height:150px">
+ </div>
+</div>
+</body>
+</html>
